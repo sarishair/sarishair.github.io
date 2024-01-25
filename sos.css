@@ -1,0 +1,45 @@
+
+div {
+    background-color: black;
+}
+
+#soslogo {
+    width:10%;
+    height: 1.5cm;
+}
+
+#logo {
+    text-align: center;
+
+    height: 2cm;
+}
+
+ul {
+    display:flex ;
+    justify-content: space-around;
+}
+
+li {
+    width: 20%;
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+img {
+    width: 7cm;
+}
+
+a {
+    color: bisque;
+    text-decoration: none;
+}
+#images {
+    display:flex;
+    justify-content:center;
+    background-color: white;
+}

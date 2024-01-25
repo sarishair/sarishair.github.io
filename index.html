@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sos.css">
+    <title>Document</title>
+
+    <script>
+        function bag() {
+            document.getElementById("info").innerHTML="item added to bag!";
+            setTimeout(function() {
+            document.getElementById("info").innerHTML=" ";
+            }, 1000);
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <div id="logo"> 
+            <a href="https:/www.google.com"> <img id = "soslogo" src="sos logo.jpeg" ></a>
+        </div>
+        <nav>
+            <ul>
+                <li id="pad"><a href="https:/www.google.com">Hoodies and Sweatshirts</a></li>
+                <li><a href="https:/www.google.com">T-Shirts</a></li>
+                <li><a href="https:/www.google.com">Bottoms and Sweatpants</a> </li>
+                <li><a href="https:/www.google.com">Contact us</a></li>
+            </ul>
+        </nav>   
+    </div>
+
+    <h2>Featured</h2>
+    <div id="images">
+        <table>
+            <tr>
+                    <td> <img src="shirt 1.png" alt="sorry this product might not be currently available"></td>
+                    <td> <img src="shirt 2.png" alt="sorry this product might not be currently available"></td>
+                    <td> <img src="shirt 3.png" alt="sorry this product might not be currently available"></td>
+            </tr>
+            <tr id="info">
+                    <td></td>
+            </tr>
+        <button onclick="bag()">Add</button>
+        </table>
+    </div>
+</body>
+</html>
