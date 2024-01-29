@@ -10,8 +10,9 @@ div {
 
 #logo {
     text-align: center;
-
     height: 2cm;
+    /* display: flex;
+    justify-content: end; */
 }
 
 ul {
@@ -42,4 +43,25 @@ a {
     display:flex;
     justify-content:center;
     background-color: white;
+}
+
+#buttonadd {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#add {
+    display: flex;
+    justify-content:end
+}
+
+
+
+#sosbasket {
+    width:8%;
+    height: 0.5cm;
+    display: flex;
+    justify-content: end;
+    align-self: flex-end;
 }
