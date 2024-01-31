@@ -4,15 +4,16 @@ div {
 }
 
 #soslogo {
-    width:10%;
+    width:100%;
     height: 1.5cm;
 }
 
 #logo {
     text-align: center;
     height: 2cm;
-    /* display: flex;
-    justify-content: end; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 5px 5px;
 }
 
 ul {
@@ -59,9 +60,15 @@ a {
 
 
 #sosbasket {
-    width:8%;
+    width:100%;
     height: 0.5cm;
-    display: flex;
-    justify-content: end;
-    align-self: flex-end;
+}
+
+#sosbasketatag {
+    padding: 5px 5px 5px 5px;
+}
+
+#info {
+    text-align: end;
+    background-color: white;
 }
