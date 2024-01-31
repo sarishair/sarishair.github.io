@@ -5,15 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sos.css">
     <title>Document</title>
-
-    <script>
-        function bag() {
-            document.getElementById("info").innerHTML="item added to bag!";
-            setTimeout(function() {
-            document.getElementById("info").innerHTML=" ";
-            }, 1000);
-        }
-    </script>
 </head>
 <body>
     <div>
@@ -33,45 +24,44 @@
     </div>
     <div id="info"></div>
 
-    <h2>T-shirts</h2>
-    
+    <h2>Bottoms and Sweatpants</h2>
+
     <div id="images">
         <table>
             <tr>
-                    <td> <img class="hover-image" src="shirt 1.png" alt="sorry this product might not be currently available">
+                    <td> <img class="hover-image" src="nikecom sweatpants.png" alt="sorry this product might not be currently available">
                         <div id="buttonadd">
-                            nike swoosh in grey
+                            nike tech sweatpants in grey
                         </div>
                     </td>
 
-                    <td> <img class="hover-image" src="shirt 2.png" alt="sorry this product might not be currently available">
+                    <td> <img class="hover-image" src="nike sweatpants 1.png" alt="sorry this product might not be currently available">
                         <div id="buttonadd">
-                            nike just do it tee in red 
+                            nike tapered sweatpants in navy
                         </div>
                     </td>
-                    <td> <img class="hover-image" src="shirt 3.png" alt="sorry this product might not be currently available">
+                    <td> <img class="hover-image" src="nike solo swoosh in black.png" alt="sorry this product might not be currently available">
                         <div id="buttonadd">
-                            nike sb tee in white
+                            nike solo swoosh in black
                         </div>
                     </td>
             </tr>
             <tr >
                     <td>
-                        45$
+                        60$
                         <button class = "add" onclick="bag()">Add to bag </button>
                     </td>
 
                     <td>
-                        40$
+                        55$
                         <button class = "add" onclick="bag()">Add to bag </button>
                     </td>
                     <td>
-                        40$
+                        60$
                         <button class = "add" onclick="bag()">Add to bag </button>
                     </td>
             </tr>
         </table>
     </div>
-    
 </body>
 </html>
